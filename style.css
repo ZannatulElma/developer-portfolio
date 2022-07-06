@@ -12,7 +12,7 @@ h1 {
     color: greenyellow;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,4 +45,34 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px greenyellow;
+}
+
+.Experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+#baby-web {
+    border-left: 5px solid hsl(120, 83%, 45%);
+}
+
+#full-stack {
+    border-left: 5px solid orange;
+}
+
+footer p {
+    text-align: center;
 }
